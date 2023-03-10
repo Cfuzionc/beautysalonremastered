@@ -9,17 +9,17 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    @include('layouts.partials.assets')
+    @include('layouts.assets')
     @livewireStyles
 </head>
 
 <body data-spy="scroll" data-target=".side_menu" data-offset="90">
 <!-- Preloader -->
-@include('layouts.partials.loader')
+@include('layouts.loader')
 <!-- Preloader End -->
 
 <!--Header Start-->
-@include('layouts.partials.navigation')
+@include('layouts.navigation')
 <!--Header End-->
 
 <!--Banner Start-->
@@ -83,7 +83,7 @@
 <!--main page content end-->
 
 <!--Footer Start-->
-@include('layouts.partials.footer')
+@include('layouts.footer')
 <!--Footer End-->
 
 <!--Scroll Top Start-->
