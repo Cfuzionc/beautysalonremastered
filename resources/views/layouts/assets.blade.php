@@ -11,23 +11,26 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css" rel="stylesheet">
+
+<script src="public/js/jquery.themepunch.tools.min.js"></script>
+<script src="public/js/circle-progress.min.js"></script>
+<script src="public/js/bundle.min.js"></script>
+<script src="public/js/jquery.fancybox.min.js"></script>
+<script src="public/js/owl.carousel.min.js"></script>
+<script src="public/js/swiper.min.js"></script>
+<script src="public/js/jquery.cubeportfolio.min.js"></script>
+<script src="public/js/parallaxie.min.js"></script>
+<script src="public/js/select2.min.js"></script>
+<script src="public/js/slick.min.js"></script>
+<script src="public/js/jquery.themepunch.revolution.min.js"></script>
+<script src="public/js/extensions/revolution.extension.actions.min.js"></script>
+
+
 @vite([
         // SCRIPTS
-        'public/js/jquery.themepunch.tools.min.js',
-        'public/js/circle-progress.min.js',
         'public/js/date.js',
         'public/js/app.js',
-        'public/js/bundle.min.js',
-        'public/js/jquery.fancybox.min.js',
-        'public/js/owl.carousel.min.js',
-        'public/js/swiper.min.js',
         'public/js/jquery.appear.js',
-        'public/js/jquery.cubeportfolio.min.js',
-        'public/js/parallaxie.min.js',
-        'public/js/select2.min.js',
-        'public/js/slick.min.js',
-        'public/js/jquery.themepunch.revolution.min.js',
-        'public/js/extensions/revolution.extension.actions.min.js',
         'public/js/extensions/revolution.extension.carousel.min.js',
         'public/js/extensions/revolution.extension.kenburn.min.js',
         'public/js/extensions/revolution.extension.layeranimation.min.js',
