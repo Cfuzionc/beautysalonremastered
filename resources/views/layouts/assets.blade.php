@@ -13,14 +13,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css" rel="stylesheet">
 @vite([
         // SCRIPTS
-        'public/js/vendor',
-        'public/js/sb-admin-2.js',
-        'public/js/sb-admin-2.min.js',
-        'public/js/maps.min.js',
         'public/js/jquery.themepunch.tools.min.js',
-        'public/js/wow.js',
-        'public/js/wow.min.js',
-        'public/js/megamenu.js',
         'public/js/circle-progress.min.js',
         'public/js/date.js',
         'public/js/app.js',
@@ -46,16 +39,13 @@
         'public/js/script.js',
         'public/js/bootstrap-input-spinner.js',
         'public/js/bootstrap.js',
-        'public/js/bootstrap.min.js.map',
         'public/js/drift.min.js',
         'public/js/flip.js',
-        'public/js/isotope.pkgd.min.js',
         'public/js/tooltipster.min.js',
         'public/js/jquery.hoverdir.js',
         'public/js/jquery.fancybox.min.js',
         'public/js/TweenMax.min.js',
         'public/js/hvr.js',
-        'public/js/modernizr.custom.97074.js',
 
     //JS extensions
     'public/js/extensions/revolution.addon.snow.min.js',
@@ -72,7 +62,6 @@
 
     // CSS
     'public/css/app.css',
-    'public/css/bundle.min.css',
     'public/css/jquery.fancybox.min.css',
     'public/css/owl.carousel.min.css',
     'public/css/swiper.min.css',
@@ -85,11 +74,9 @@
     'public/css/style.css',
     'public/css/custom.css',
     'public/css/wow.css',
-    'public/css/bootstrap.min.css.map',
     'public/css/drift-basic.min.css',
     'public/css/jquery-ui.bundle.css',
     'public/css/tooltipster.min.css',
-    'public/css/megamenu.css',
     'public/css/layers.css',
     'public/css/mediaelementplayer.min.css',
     'public/css/LineIcons.min.css',
